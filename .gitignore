@@ -1,2 +1,3 @@
 deeplink_backend
 server
+*.log
