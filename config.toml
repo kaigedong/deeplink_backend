@@ -1,0 +1,4 @@
+log = "debug" # debug, release, test
+http_port = ":8001"
+ws_port = ":8002"
+redis_port = ":6379"
