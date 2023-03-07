@@ -3,6 +3,7 @@ module deeplink_backend
 go 1.20
 
 require (
+	github.com/appleboy/gin-jwt/v2 v2.9.1 // indirect
 	github.com/bytedance/sonic v1.8.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
@@ -15,8 +16,10 @@ require (
 	github.com/go-playground/validator/v10 v10.11.2 // indirect
 	github.com/go-redis/redis v6.15.9+incompatible // indirect
 	github.com/goccy/go-json v0.10.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.4.3 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
@@ -30,6 +33,7 @@ require (
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/spf13/afero v1.9.3 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
+	github.com/spf13/cobra v1.6.1 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.15.0 // indirect

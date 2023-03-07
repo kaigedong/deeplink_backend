@@ -28,6 +28,19 @@ func (ec *Controller) OK(c *gin.Context) {
 		})
 }
 
+// 增加被控设备
+func (ec *Controller) NewDevice(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{"msg": "OK"})
+}
+
+// 删除被控设备
+func (ec *Controller) DeleteDevice(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{"msg": "OK"})
+}
+
+// 修改被控设备?
+
+// 查找被控设备
 func (ec *Controller) Devides(c *gin.Context) {
 	c.JSON(
 		http.StatusOK,
@@ -35,5 +48,4 @@ func (ec *Controller) Devides(c *gin.Context) {
 			ID: uuid.New(),
 			IP: "",
 		})
-
 }
